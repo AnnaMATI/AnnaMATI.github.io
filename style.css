@@ -1,0 +1,183 @@
+
+
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url(./images//cover.jpg);
+background-size: cover;
+font-family: 'HandwrittenFont', cursive; /* Use the font name you defined */
+} 
+
+.headname {
+  margin-top: 15px;
+  text-align: center;
+  color: #555;
+  font-style: oblique;
+  font-size: 20px;
+  @font-face {
+    font-family: 'HandwrittenFont'; 
+    src: url('./fonts/handwritten-font.woff2') format('woff2'), 
+         url('./fonts/handwritten-font.woff') format('woff'); 
+}
+}
+
+.namepart {
+  text-align: center;
+  font-size: 70px;
+  margin: 20px 0;
+  color: #555;
+  font-style: oblique;
+  @font-face {
+    font-family: 'HandwrittenFont'; 
+    src: url('./fonts/handwritten-font.woff2') format('woff2'), 
+         url('./fonts/handwritten-font.woff') format('woff'); 
+}
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #555;
+  font-style: oblique;
+  @font-face {
+    font-family: 'HandwrittenFont'; 
+    src: url('./fonts/handwritten-font.woff2') format('woff2'), 
+         url('./fonts/handwritten-font.woff') format('woff'); 
+}
+}
+
+#countdown {
+  text-align: center;
+  color: #555;
+  font-style: oblique;
+  font-size: 30px;
+}
+
+.program {
+  text-align: center;
+  margin-top: 40px;
+  color: #555;
+  font-style: oblique;
+  font-size: 40px;
+}
+
+.planningdiv {
+  display: flex;
+flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+ 
+  /* max-width: 900px; */
+}
+#timer{
+
+}
+  
+.planningdiv div {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+background-color: rgb(250, 233, 212);
+  border-radius: 30px;
+border: none;
+  box-shadow: rgba(160, 109, 109, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ 
+}
+.painpart{
+  height: 50%;
+  width:60% ;
+  border-radius: 30px; 
+  box-shadow: rgba(92, 90, 90, 0.56) 0px 22px 70px 4px;
+}
+.church,
+.restaurant,
+.bridehome {
+  margin: 10px 0;
+  color: #363434;
+  font-size: 18px;
+ font-style: oblique;
+}
+
+.planningdiv a {
+  display: block;
+  margin-top: 15px;
+  color: #c22828;
+
+  
+}
+.brideH,
+.ring,
+.res {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.footer {
+  margin-top: 10px;
+  text-align: center;
+  color: #555;
+}
+.footer span{
+  font-size: 25px;
+  color: #555;
+  font-style: oblique;
+  @font-face {
+    font-family: 'HandwrittenFont'; 
+    src: url('./fonts/handwritten-font.woff2') format('woff2'), 
+         url('./fonts/handwritten-font.woff') format('woff'); 
+}
+}
+
+/* Responsive styles */
+@media screen and (min-width: 769px) {
+  .planningdiv {
+    flex-direction: row;
+  }
+
+  .planningdiv div {
+    flex: 1;
+    max-width: 300px;
+  }
+} 
+/* Mobile-specific styles */
+@media screen and (max-width: 768px) {
+  /* Adjust font sizes for better mobile readability */
+  .namepart {
+    font-size: 40px;
+  }
+
+  .content {
+    font-size: 20px;
+  }
+
+  .program {
+    font-size: 30px;
+  }
+
+  /* Set the width of the images to occupy the full width of the container */
+  .brideH, .ring, .res {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  /* Adjust the margin and padding to provide better spacing on mobile */
+  .planningdiv {
+    margin: 10px auto;
+  }
+
+  .planningdiv div {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+}

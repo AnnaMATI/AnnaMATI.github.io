@@ -121,7 +121,7 @@ flex-direction: column;
   margin: 20px;
   padding: 20px;
   text-align: center;
-background-color: rgb(253, 224, 245);
+background-color: rgb(255, 241, 251);
   border-radius: 30px;
 border: none;
   box-shadow: rgba(160, 109, 109, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
@@ -162,7 +162,7 @@ border: none;
   color: #555;
 }
 .footer span{
-  font-size: 25px;
+  font-size: 20px;
   color: #555;
   font-style: oblique;
   @font-face {

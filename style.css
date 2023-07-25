@@ -20,7 +20,8 @@ font-family: 'HandwrittenFont', cursive; /* Use the font name you defined */
   text-align: center;
   color: #555;
   font-style: oblique;
-  font-size: 20px;
+  font-size: 25px;
+  color: #555;
   @font-face {
     font-family: 'HandwrittenFont'; 
     src: url('./fonts/handwritten-font.woff2') format('woff2'), 
@@ -30,8 +31,8 @@ font-family: 'HandwrittenFont', cursive; /* Use the font name you defined */
 
 .namepart {
   text-align: center;
-  font-size: 70px;
   margin: 20px 0;
+  font-size: 25px;
   color: #555;
   font-style: oblique;
   @font-face {
@@ -56,17 +57,27 @@ font-family: 'HandwrittenFont', cursive; /* Use the font name you defined */
 
 #countdown {
   text-align: center;
+  font-size: 25px;
   color: #555;
   font-style: oblique;
-  font-size: 30px;
+  @font-face {
+    font-family: 'HandwrittenFont'; 
+    src: url('./fonts/handwritten-font.woff2') format('woff2'), 
+         url('./fonts/handwritten-font.woff') format('woff'); 
+}
 }
 
 .program {
   text-align: center;
   margin-top: 40px;
+  font-size: 25px;
   color: #555;
   font-style: oblique;
-  font-size: 40px;
+  @font-face {
+    font-family: 'HandwrittenFont'; 
+    src: url('./fonts/handwritten-font.woff2') format('woff2'), 
+         url('./fonts/handwritten-font.woff') format('woff'); 
+}
 }
 
 .planningdiv {
@@ -77,9 +88,7 @@ flex-direction: column;
  
   /* max-width: 900px; */
 }
-#timer{
 
-}
   
 .planningdiv div {
   flex: 1;
@@ -135,6 +144,12 @@ border: none;
     src: url('./fonts/handwritten-font.woff2') format('woff2'), 
          url('./fonts/handwritten-font.woff') format('woff'); 
 }
+}
+.selfimg{
+  width: 50%;
+  height: 50%;
+  box-shadow: rgba(92, 90, 90, 0.56) 0px 22px 70px 4px;
+  border-radius: 40px;
 }
 
 /* Responsive styles */

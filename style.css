@@ -51,10 +51,11 @@ font-family: 'HandwrittenFont', cursive; /* Use the font name you defined */
 
 .timer{
   text-align: center;
-  margin: px 0;
+  /* margin: px 0; */
   font-size: 30px;
   color: #555;
   font-weight: bold;
+font-style: oblique;
 }
 .content {
   text-align: center;

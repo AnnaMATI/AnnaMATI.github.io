@@ -12,7 +12,11 @@ body {
 } 
 
 
-
+.mainimg{
+  width: 50%;
+  height: 50%;
+ align-items: center;
+}
 .namepart {
   text-align: center;
   margin: 20px 0;
@@ -21,7 +25,7 @@ body {
 .date{
   text-align: center;
   /* margin: 20px 0; */
-  font-size: 30px;
+  font-size: 35px;
   color: black;
   font-weight: bold;
 }
@@ -131,7 +135,7 @@ font-weight: bold;
 .brideH,
 .ring,
 .res {
-  width: 100%;
+  width: 80%;
   height: auto;
   /* max-width: 100%; */
 }
@@ -140,7 +144,7 @@ font-weight: bold;
   height: 100px;
 }
 .footer {
-  margin-top: 10px;
+  margin-top: 30px;
   text-align: center;
   color: #555;
 }

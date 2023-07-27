@@ -1,14 +1,14 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+  margin: 10px;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-background-size: cover;
-font-family: 'HandwrittenFont', cursive; 
+  /* min-height: 100vh; */
+
+/* font-family: 'HandwrittenFont', cursive;  */
 } 
 
 

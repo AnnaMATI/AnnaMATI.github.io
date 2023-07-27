@@ -84,7 +84,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
+  margin: 20 auto;
 }
 
 .planningdiv div {
@@ -154,7 +154,7 @@ body {
 /* Mobile Version */
 @media screen and (max-width: 768px) {
   .namepart {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .date {
@@ -166,7 +166,7 @@ body {
   }
 
   .program {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .brideH,
@@ -183,7 +183,7 @@ body {
 
   .planningdiv div {
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
   }
 }

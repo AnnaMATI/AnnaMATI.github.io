@@ -213,3 +213,48 @@ font-weight: bold;
   }
 } 
 
+/* Mobile version styles */
+/* Mobile version styles */
+@media screen and (max-width: 768px) {
+
+  /* Center the body content */
+  body {
+    align-items: center;
+  }
+
+  /* Center the .mainimg */
+  .mainimg {
+    margin: 0 auto;
+  }
+
+  /* Center the .namepart */
+  .namepart {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  /* Center the .date */
+  .date {
+    text-align: center;
+  }
+
+  /* Center the .content */
+  .content {
+    text-align: center;
+  }
+
+  /* Center the #countdown */
+  #countdown {
+    text-align: center;
+  }
+
+  /* Center the .planningdiv */
+  .planningdiv {
+    margin: 0 auto;
+  }
+
+  /* Center the .planningdiv div */
+  .planningdiv div {
+    margin: 10px auto;
+  }
+}

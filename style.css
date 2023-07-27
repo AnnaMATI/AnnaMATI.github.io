@@ -180,38 +180,6 @@ font-weight: bold;
   }
 } 
 
-@media screen and (max-width: 768px) {
-
-  .namepart {
-    font-size: 40px;
-  }
-
-  .content {
-    font-size: 20px;
-  }
-
-  .program {
-    font-size: 30px;
-  }
-
-
-  .brideH, .ring, .res {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-  }
-
-  
-  .planningdiv {
-    margin: 10px auto;
-  }
-
-  .planningdiv div {
-    margin: 10px;
-    padding: 10px;
-    border-radius: 20px;
-  }
-} 
 
 /* Mobile version styles */
 @media screen and (max-width: 768px) {

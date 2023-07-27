@@ -214,7 +214,6 @@ font-weight: bold;
 } 
 
 /* Mobile version styles */
-/* Mobile version styles */
 @media screen and (max-width: 768px) {
 
   /* Center the body content */
@@ -246,10 +245,15 @@ font-weight: bold;
   /* Center the #countdown */
   #countdown {
     text-align: center;
+    margin: 20px 0; /* Add margin to center vertically */
   }
 
   /* Center the .planningdiv */
   .planningdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Add align-items property to center the items horizontally */
     margin: 0 auto;
   }
 
